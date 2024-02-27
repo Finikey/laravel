@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+/* .montserrat-alternates-semibold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-semibold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  } */
+
+/* header */
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.wr{
+    width: 3px;
+    height: 25px;
+    background-color: black;
+}
+
+.header_a{
+    font-size: 20px;
+    color: black;
+}
+
+.header_a:hover{
+    color: rgb(72, 164, 54);
+    transition: 0.5s;
+}
+
+.header_p{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header_p:hover{
+    color: rgb(72, 164, 54);
+    transition: 0.5s;
+}
+/* header_end */
+/* banner */
+
+.banner-img{
+    width: 450px;
+    height: 550px;
+    border-radius: 8px;
+}
+
+.banner_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.banner_right{
+    width: 650px;
+}
+
+.banner_h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.banner_h2{
+    font-size: 26px;
+}
+
+.sp{
+    color: green;
+}
+
+.ss{
+    color: rgb(175, 175, 48);
+}
+
+
+/* banner_end */
+/* catalog */
+
+.catalog_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.catalog_h3{
+    font-size: 30px;
+}
+
+.catalog_front{
+    background-color: rgb(246, 246, 246);
+    width: 300px;
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.front_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.front_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.front_wr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    padding-bottom: 10px;
+}
+
+.front_text{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.but_wr{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(72, 164, 54);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: black;
+}
+
+.catalog_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.h4_bot{
+    color: black;
+}
+
+.h4_bot:hover{
+    color: rgb(72, 164, 54);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* catalog_end */
+
+/* footer */
+
+.footer_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.footer_p:hover{
+    color: rgb(72, 164, 54);
+    transition: 0.5s;
+}
+
+.footer_copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(37, 37, 37);
+    margin-top: 30px;
+}
+
+.footer_content{
+    padding: 20px 0;
+}
+
+/* footer_end */
+
+/* tovars */
+
+.tovar_img{
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.tovar_content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.tovar_right{
+    width: 600px;
+}
+
+.right_h4{
+    font-size: 32px;
+}
+
+.right_opis{
+    margin-top: 30px;
+}
+
+.right_p{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.right_pri{
+    font-size: 25px;
+}
+
+.right_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.right_exit{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(118, 114, 114);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+}
+
+.right_exit:hover{
+    background-color: rgb(72, 164, 54);
+    transition: 0.5s;
+}
+
+
+
+
+
+/* tovars_end */
+
+/* managment */
+
+.managment_content{
+    margin-top: 20px;
+}
+
+.tovars_wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tovars_text{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 70px;
+}
+
+.mana_h3{
+    font-size: 25px;
+
+}
+
+.mana_tovars{
+    background-color: rgb(246, 246, 246);
+    width: 400px;
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.tovars_update{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.mana_wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+
+/* managment_end */
+
+/* add */
+
+.add_content{
+    margin-top: 50px;
+}
+
+.add_wrapp{
+    margin-top: 20px;
+}
+
+.inp_tovars{
+    font-size: 20px;
+}
+
+/* add_end */
+
+/* registr */
+
+.registr_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.registr_wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.reg_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.reg_inp{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.wrr{
+    width: 400px;
+    height: 45px;
+}
+/* registr_end */
